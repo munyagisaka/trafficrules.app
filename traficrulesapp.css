@@ -1,0 +1,83 @@
+*::after, ::before{
+    margin:0;
+    padding:0;
+}
+body{
+    font-size: 1.2rem;
+    margin:40px  40px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+       background-image:"C:\Users\sakaj\Pictures\WhatsApp Image 2025-07-19 at 3.22.21 PM (1).jpeg";
+}
+#container{
+    background-color: black;
+    color: #fff;
+    font-family: sans-serif;
+    height: 600px;
+    width:90vw;
+    border-radius:5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#start{
+    width: 100px;
+    height: 40px;
+    background-color: #ee90a9;
+    justify-content: last baseline;
+    position:absolute;
+    bottom:1px;
+    display: inline;
+    margin:3px;
+    left:50%;
+    margin-bottom: 35px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+#start:focus{
+    background-color:darkgray;
+}
+#start:hover{
+    background-color: orangered;
+}
+p{
+text-align: center;
+}
+#answers-container{
+    list-style-type: none;
+    padding:10px;
+    margin:23px;
+
+}
+li{
+    background-color: darkgreen;
+    padding:12px;
+    margin:12px;
+    border-radius: 12px;
+    width:50%;
+    height:35px;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+    left:200px;
+}
+li:nth-of-type(1):hover{
+    background:#8a0a3a;
+    text-align: center;
+
+}
+li:nth-of-type(2):hover{
+    background:#9a6a5a;
+}
+li:nth-of-type(3):hover{
+    background-color: #fa00d1;
+}
+li:nth-of-type(4):hover{
+    background: #787899;
+}
+p{
+    text-align: center;
+    justify-content: center;
+}
